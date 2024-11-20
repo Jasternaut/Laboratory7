@@ -16,6 +16,12 @@
 
 int main()
 {
-    func::write("Test");
+    int i, j;
+    const int N_Max = 100;
+    int mas[N_Max][N_Max];
+    func::read(mas, i, j);
+    func::write(mas, i, j);
+
+    system("pause");
     return 0;
 }
